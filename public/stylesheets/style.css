@@ -1,0 +1,17 @@
+body {
+  /*padding: 50px;*/
+    padding-top: 45px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.footer{
+    text-align: center;
+}
+a {
+  color: #00B7FF;
+}
+.registry{padding-top: 40px;}
+#recent-flows li:first-of-type{margin-left: 0}
+#recent-flows.inline li{
+    padding: 0;
+}
+.home-page .hero-unit{margin-top: 20px;}
