@@ -52,7 +52,7 @@
 
         $getBtn.click(function(){
             $.getJSON("http://cart.a.com/get_cookie?callback=?", function(data){
-                console.log(data);
+                console && console.log(data);
                 $("#cookie").text(data.cookie);
                 $(".show-cookie").show();
             })
